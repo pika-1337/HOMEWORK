@@ -1,0 +1,27 @@
+* {
+    color: aquamarine;
+}
+
+.title { 
+    color: red;
+}
+
+.content {
+    color: blue;
+}
+
+.content p {
+    color: green;
+}
+
+.content .geography {
+    color: yellow;
+}
+
+.economy {
+    color: orange;
+}
+
+.footer_text {
+    color: purple;
+}
