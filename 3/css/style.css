@@ -1,31 +1,27 @@
-* {
-    color: aquamarine;
+.geography > p {
+    color:rgb(145, 89, 21);
 }
 
-.title { 
-    color: red;
+.culture__title ~ p {
+    color:rgb(63, 167, 207);
 }
 
-.content {
-    color: blue;
+.economy__title + p {
+    color:rgb(35, 179, 59);
 }
 
-.content p {
-    color: green;
+.geography__title.title {
+    color : rgb(193, 207, 63);
 }
 
-.content .geography {
-    color: yellow;
+.content, .culture, .history, .economy {
+    color: rgb(14, 6, 124);
 }
 
-.economy {
-    color: orange;
-}
-
-.next {
+[class*='foo'] {
     color: pink;
 }
 
-.footer_text {
-    color: purple;
+#next {
+    color: aquamarine;
 }
