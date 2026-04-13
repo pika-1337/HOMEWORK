@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homework 3</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title title">Властивості CSS для роботи з текстом, кольором і тінями</h1>
+        <ol class="header__menu menu">
+            <li class="menu__item">
+                <a href="">Властивості CSS для тексту</a>
+                <ul class="menu__sublist sublist-menu">
+                    <li class="sublist-menu__item"><a href="">color</a></li>
+                    <li class="sublist-menu__item"><a href="">font-family</a></li>
+                    <li class="sublist-menu__item"><a href="">font-size</a></li>
+                    <li class="sublist-menu__item"><a href="">font-weight</a></li>
+                    <li class="sublist-menu__item"><a href="">Інші важливі властивості для тексту</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="">Призначення кольорів у CSS</a>
+                <ul class="subtitle-menu__item">
+                    <li class="subtitle-menu__item"><a href="">Ключові слова для кольорів</a></li>
+                    <li class="subtitle-menu__item"><a href="">Шістнадцятковий формат (HEX)</a></li>
+                    <li class="subtitle-menu__item"><a href="">Формат RGB і RGBA</a></li>
+                    <li class="subtitle-menu__item"><a href="">HSL та HSLA</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">Тіні в CSS</li>
+            <li class="menu-item">Корисні ресурси та інструменти для роботи з кольорами і тінями</li>
+            <li class="menu-item">Підключення шрифтів</li>
+        </ol>
+    </header>
+
+    <main class="main">
+        <div class="text-properties">
+            <h2 class="main-properties__title title"></h2>
+            <ul class="main__properties">
+                <li class="color-property">
+                    <mark>color</mark>
+                    - задає колір тексту. Підтримує ключові слова, шістнадцяткові (HEX), RGB та HSL-формати.
+                    <p>Це речення буде фіолетовим.</p>
+                </li>
+                <li class="font-family-property">
+                    <mark>font-family</mark>
+                    - визначає шрифт для тексту. Список шрифтів задається через кому: перший доступний шрифт використовується..
+                    <p>Це речення буде Courier New, або Courier, якщо Courier New недоступний.</p>
+                </li>
+                <li class="font-size-property">
+                    <mark>font-size</mark>
+                    - визначає розмір шрифту. Підтримує різні одиниці виміру: px, em, rem, %.
+                    <p>Це речення буде розміром 24px.</p>
+                </li>
+                <li class="font-weight-property">
+                    <mark>font-weight</mark>
+                    - контролює товщину шрифту. Можливі значення:
+                    <ul class="fw-property-list">
+                        <li class="fw-property__item">
+                            Це речення буде нормальної товщини.
+                            <p class="fw-property__item--400">bold або 700: жирний текст.</p>
+                        </li>
+                        <li class="fw-property__item">
+                            bold або 700: жирний текст.
+                            <p class="fw-property__item--700">Це речення буде жирним.</p>
+                        </li>
+                        <li class="fw-property__item">
+                            lighter: тонший шрифт порівняно з батьківським елементом.
+                            <p class="fw-property__item--lighter">Це речення буде мати тонший шрифт порівняно з батьківським елементом.</p>
+                        </li>
+                        <li class="fw-property__item">
+                            bolder: товщий шрифт порівняно з батьківським елементом.
+                            <p class="fw-property--bolder">
+                                Це речення буде мати товщий шрифт порівняно з батьківським елементом.
+                            </p>
+                        </li>
+                        <li class="fw-property__item">
+                            Це речення буде мати товщий шрифт порівняно з батьківським елементом.
+                            <ul>
+                                <li class="fw-property__item--100">Це речення буде мати значення font-weight: 100.</li>
+                                <li class="fw-property__item--200">Це речення буде мати значення font-weight: 200.</li>
+                                <li class="fw-property__item--300">Це речення буде мати значення font-weight: 300.</li>
+                                <li class="fw-property__item--400">Це речення буде мати значення font-weight: 400.</li>
+                                <li class="fw-property__item--500">Це речення буде мати значення font-weight: 500.</li>
+                                <li class="fw-property__item--600">Це речення буде мати значення font-weight: 600.</li>
+                                <li class="fw-property__item--700">Це речення буде мати значення font-weight: 700.</li>
+                                <li class="fw-property__item--800">Це речення буде мати значення font-weight: 800.</li>
+                                <li class="fw-property__item--900">Це речення буде мати значення font-weight: 900.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </main>
+        
+    <footer class="footer">
+        <a target="_blank" href="@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');"></a>
+    </footer>
+</body>
+</html>
