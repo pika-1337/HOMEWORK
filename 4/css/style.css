@@ -53,7 +53,7 @@ body {
 .fw-property__item--lighter {
     font-weight: 100;
 }
-.fw-property--bolder {
+.fw-property__item--bolder {
     font-weight: 700;
 
 }
@@ -231,10 +231,7 @@ body {
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
 }
 
-.useful-links {
-}
-.title {
-}
+
 .useful-links__title {
     color: darkmagenta;
 }
@@ -248,10 +245,7 @@ body {
     text-decoration-color: darkmagenta;
 }
 
-.connecting-fonts {
-}
-.personal-portfolio {
-}
+
 .personal-portfolio__title {
     font-weight: 600;
     font-size: 38px;
@@ -261,8 +255,7 @@ body {
 .personal-porfolio__text-block {
     line-height: 1.3;
 }
-.business-presentation {
-}
+
 .business-resentation__title {
     font-size: 88px;
     line-height: 1.1;
@@ -274,8 +267,7 @@ body {
     font-size: 24px;
     line-height: 1.75;
 }
-.landing-page {
-}
+
 .landing-page__title {
     color: #091133;
     font-size: 50px;

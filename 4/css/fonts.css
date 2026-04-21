@@ -2,7 +2,7 @@
     font-family: "Chillax";
     src: url(../fonts/Chillax-Light.woff2) format("woff2");
     font-weight: 300;
-    font-style: light;
+    font-style: normal;
     font-display: swap;
 }
 @font-face {
@@ -23,7 +23,7 @@
     font-family: "Satoshi";
     src: url(../fonts/Satoshi-Light.woff2) format("woff2");
     font-weight: 300;
-    font-style: light;
+    font-style: normal;
     font-display: swap;
 }
 @font-face {
