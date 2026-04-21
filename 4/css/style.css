@@ -282,8 +282,6 @@ body {
 
 .homework {
     max-width: 500px;
-    margin: 0 auto;
-    padding: 0 10px;
     border: 10px solid #79f663;
     font-family: "DM Sans", sans-serif;
 }
