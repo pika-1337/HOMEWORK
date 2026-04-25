@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E1E1E;
+}
+main {
+    font-family: 'Barlow', sans-serif;
+    line-height: 150%;
+    color: #B3B3B2;
+}
+.title {
+    color: #F9EFEC; 
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.shop-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 310px;
+    background-image: url(/img/shop-background.jpg);
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.shop-wrapper__content-title {
+    color: #000000;
+    font-weight: 500;
+    font-size: 48px;
+    text-shadow: 0 4px 4px #000000;
+    margin-bottom: 15px;
+}
+.shop-wrapper__content-text {
+    padding-left: 2px;
+    font-size: 16px;
+}
+.shop-wrapper__content-text img {
+    position: relative;
+    top: -3px;
+}
+.shop-wrapper__content-text-shop {
+    font-weight: 300;
+}
+
+.page-about {
+    background-color: #1A1A1A;
+    padding: 32px;
+    max-width: 834px;
+    margin: 0 auto;
+}
+.page-about__position, .page-about__benefits, .page-about__responsibilities, .page-about__requirements {
+    margin-bottom: 24px;
+}
+
+.page-about__position-title { 
+    font-size: 24px;
+    font-weight: 500;
+}
+.page-about__position-text:not(:last-child) , .page-about__benefits-text:not(:last-child) , .page-about__responsibilities-text:not(:last-child) , .page-about__requirements-text:not(:last-child) {
+margin-bottom: 30px;
+}
+.page-about__responsibilities-text, .page-about__requirements-text {
+    padding-left: 20px;
+    background: url(../img/icon.svg) left 0px / 16px no-repeat;
+    
+} 
+
+.page-web {
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/web-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    height: 340px;
+    width: 100%;
+}
+.page-web-wrapper {
+    text-align: center;
+}
+.page-web-wrapper-title {
+    color: #F9EFEC;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.page-web-wrapper-link {
+    padding: 13px 75px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #0A84FF;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
