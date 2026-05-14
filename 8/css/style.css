@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(106, 152, 144);
+}
+
+[class*=__container] {
+    max-width: 1200px;
+    margin: 0 auto;;
+}
+
+.web {
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.web__title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.logo-item {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.page {
+    padding-bottom: 20px;
+}
+.page-wrapper > *{
+    margin-bottom: 20px;
+}
+
+.page-wrapper ul{
+    text-align: center;
+}
+.page-wrapper li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.page-wrapper li:nth-child(1)::before{
+    background:  url("../img/account-alert.svg") no-repeat;
+}
+.page-wrapper li:nth-child(2)::before{
+    background:  url("../img/icons_search.svg") no-repeat;
+}
+.page-wrapper li:nth-child(3)::before{
+    background:  url("../img/icons_heart.svg") no-repeat;
+}
+.page-wrapper li:nth-child(4)::before{
+    background:  url("../img/shopping-cart.svg") no-repeat;
+}
+.page-wrapper li::before{
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    flex-shrink:0;
+}
+
+
+.new-image {
+    display: block;
+}
+.new-image img{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.page-rooms  {
+    display: flex;
+    width: 100%;
+    height: auto; 
+    gap: 25px;
+    justify-content: center;
+}
