@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Homework</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="header__title title">Homework . Трансформація</h1>
+      </div>
+    </header>
+    <main>
+      <section class="transform">
+        <div class="container">
+          <div class="transform__content">
+            <h2 class="transform__title title">
+              Css властивість translate дозволяє змінювати положення елемента
+            </h2>
+            <p class="transform__text">Основні властивості translate:</p>
+            <ul class="transform__list">
+              <li class="transform__item">translate</li>
+              <li class="transform__item">rotate</li>
+              <li class="transform__item">scale</li>
+              <li class="transform__item">skew</li>
+              <li class="transform__item">matrix</li>
+              <li class="transform__item">perspective</li>
+              <li class="transform__item">translate3d</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="transformation">
+        <div class="container">
+          <h2 class="transformation__title title">Основні правила</h2>
+          <ul class="transformation__list">
+            <li class="transformation__rule">
+              Обертаючи об'єкт, його система координат переміщується разом з ним
+            </li>
+            <li class="transformation__rule">
+              Переміщуючи об'єкт він рухається відносно власної системи
+              координат (а не системи батьківського елемента)
+            </li>
+            <li class="transformation__rule">
+              Порядок запису значень може змінити результат
+            </li>
+          </ul>
+          <div class="transformation__example example">
+            <div class="example-standart">
+              <div class="example-item example-item--1">
+                translate: -50px 70px
+              </div>
+            </div>
+            <div class="example-standart">
+              <div class="example-item example-item--2">rotate: 200deg;</div>
+            </div>
+            <div class="example-standart">
+              <div class="example-item example-item--3">scale: 3</div>
+            </div>
+            <div class="example-standart">
+              <div class="example-item example-item--4">
+                transform: skew(60deg, 30deg)
+              </div>
+            </div>
+            <div class="example-standart">
+              <div class="example-item example-item--5">
+                transform: translate(30px, 2px) rotate(-20deg) scale(0.9, 2) або
+                transform: matrix(1.272, -2.121, 1.272, 2.121, 30, 2);
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="transformation3d">
+        <div class="container">
+          <h3 class="title">Трансформація 3d</h3>
+          <ul>
+            <li>
+              perspective - задає відстань від площини об'єкта, або, іншими
+              словами, силу перспективи. Чим більше значення, тим далі ви
+              знаходитесь від об'єкта; чим менше значення, тим більш помітною
+              буде перспектива
+            </li>
+            <li>
+              perspective origin - визначає позицію, з якої ви "дивитеся" на
+              об'єкт. Якщо початок перспективи розташований по центру (за
+              замовчуванням), а об'єкт зміщений праворуч, то буде здаватися, що
+              ви дивитеся на нього зліва (і навпаки).
+            </li>
+            <li>
+              Крім того, ви можете залишити об'єкт по центру і перемістити
+              початок перспективи. Коли початок координат встановлений збоку,
+              здається, що ви "дивитеся" на об'єкт з цього боку. Чим більше
+              значення, тим далі вбік він буде виглядати.
+            </li>
+          </ul>
+          <div class="transformation3d-example example">
+            <div class="transformation3d-wrapper">
+              <div class="transformation3d-item transformation3d-item--1">
+                transform: rotate3d(100, 1, 1, 50deg)
+              </div>
+            </div>
+            <div class="transformation3d-wrapper">
+              <div class="transformation3d-item transformation3d-item--2">
+                transform: translate3d(20px, 20px, 40px) rotate3d(1, 1, 1,
+                50deg)
+              </div>
+            </div>
+            <div class="transformation3d-wrapper">
+              <div class="transformation3d-item transformation3d-item--3">
+                transform: translate3d(20px, 20px, 40px) rotate3d(1, 1, 1,
+                50deg)
+              </div>
+            </div>
+            <div class="transformation3d-wrapper">
+              <div class="transformation3d-item transformation3d-item--4">
+                transform: translate3d(20px, 20px, 40px) rotate3d(1, 1, 1,
+                50deg)
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="car.html">Машина</a>
+        <p>@Всі права захищені</p>
+      </div>
+    </footer>
+  </body>
+</html>
